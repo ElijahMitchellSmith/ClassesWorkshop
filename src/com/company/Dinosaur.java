@@ -2,7 +2,6 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Dinosaur {
     public class Dinosaur extends Pet {
         public Dinosaur(boolean likesMeat, boolean canFly, String raceType, Scanner input) {
             this.likesMeat = likesMeat;
@@ -40,5 +39,3 @@ public class Dinosaur {
             this.raceType = raceType;
         }
     }
-
-}

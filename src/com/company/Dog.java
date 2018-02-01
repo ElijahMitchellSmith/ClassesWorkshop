@@ -6,6 +6,7 @@ public class Dog {
     private boolean likesWalkes;
     private boolean canFetch;
     private String coatType;
+    private String petName;
     private Scanner input = new Scanner(System.in);
 
     public Dog() {
@@ -38,6 +39,13 @@ public class Dog {
     public void setCoatType(String coatType) {
         this.coatType = coatType;
     }
+
+    public void setPetName(String petName) {
+        this.petName = petName;
+    }
+
+    public String getPetName() {
+        return petName;
+    }
 }
 
-}

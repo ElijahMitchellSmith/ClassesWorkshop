@@ -48,5 +48,3 @@ package com.company;
             this.gender = gender;
         }
     }
-
-}
