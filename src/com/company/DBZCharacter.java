@@ -73,7 +73,7 @@ public class DBZCharacter {
             setPowerLevel(input.nextInt());
         }
             setFinalPowerLevel(getPowerLevel() * 1000);
-           System.out.println("Welcome to the Story of " + getCharaName() + " The " +  getRaceName() + ". Their initial power level is " + getPowerLevel()  + "However, When they reach their strongest form their power pushes " + getFinalPowerLevel() + "!");
+           System.out.println("Welcome to the Story of " + getCharaName() + " The " +  getRaceName() + ". Their initial power level is " + getPowerLevel()  + " However, When they reach their strongest form their power pushes " + getFinalPowerLevel() + "!");
 
 
 

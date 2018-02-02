@@ -3,12 +3,15 @@ package com.company;
 import java.util.Scanner;
 
     public class Dinosaur extends Pet {
-        public Dinosaur(boolean likesMeat, boolean canFly, String raceType, Scanner input) {
+        public Dinosaur(String ownerName, String petName, String homeAddress, int age, char gender, boolean likesMeat, boolean canFly, String raceType, Scanner input) {
+            super(ownerName, petName, homeAddress, age, gender);
             this.likesMeat = likesMeat;
             this.canFly = canFly;
             this.raceType = raceType;
             this.input = input;
         }
+
+
 
         private boolean likesMeat;
         private boolean canFly;
