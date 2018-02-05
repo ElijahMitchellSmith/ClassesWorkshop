@@ -19,8 +19,8 @@ public class Dog extends Pet {
         setLikesWalkes(input.nextBoolean());
         System.out.println("How old is " + getPetName() + "?");
         humanAge = input.nextInt();
-        dogAge = humanAge * 7;
-        System.out.println(getPetName() + "is" + humanAge + "in human years and " + dogAge + "in dog years" );
+//        dogAge = humanAge * 7;
+//        System.out.println(getPetName() + "is" + humanAge + "in human years and " + dogAge + "in dog years" );
 
 //        this.likesWalkes = likesWalkes;
 //        this.canFetch = canFetch;
@@ -65,6 +65,9 @@ public class Dog extends Pet {
     @Override
     protected String makesSound() {
         return super.makesSound() +  " But ... Dogs go woof!";
+    }
+    protected String dogYears() {
+        return super.getPetName() + " is " + super.getAge() + " in human years and" + (getAge() * 7) + " in dog years.";
     }
 }
 
